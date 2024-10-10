@@ -5,6 +5,10 @@ package com.huz.javaio;
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        WordReplacer wordReplacer = new WordReplacer();
+        wordReplacer.replaceWord();
+        wordReplacer.reverseOrder();
+        wordReplacer.replaceToUpperCase();
+
     }
 }
